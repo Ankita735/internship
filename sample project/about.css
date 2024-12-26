@@ -1,0 +1,343 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #4facfe, pink);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.hero-section .cta-button {
+    text-decoration: none;
+    color: white;
+    background: #ff5733;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.hero-section .cta-button:hover {
+    background: #c70039;
+}
+
+/* Features Section */
+.features-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.features-section .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4facfe;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+
+/* About Section */
+.about-section {
+    padding: 20px;
+    text-align: center;
+    background: rgb(242, 238, 238);
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+/* Team Section */
+.team-section {
+    padding: 20px;
+    background: #f3f0f0;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: rgb(172, 164, 164);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Indoor Section */
+.indoor-section {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.indoor-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.indoor-section p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.indoor-games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.game {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.game p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Outdoor Section */
+.outdoor-section {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.outdoor-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.outdoor-section p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.outdoor-games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.game {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.game p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+}
+/* Apply the blinking effect to both indoor and outdoor games */
+.game {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* Apply hover effect to blink the images once when hovered */
+.game img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect to make the image blink once */
+.game:hover img {
+    animation: blink 0.5s ease forwards;
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+/* Define the blinking animation */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
